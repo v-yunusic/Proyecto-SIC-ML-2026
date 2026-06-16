@@ -4,17 +4,25 @@ Repositorio para desarrollo de herramienta integral diseñada para simplificar y
 
 ## 🚀 Características Principales
 
-* **🔍 Tratamiento de Valores Faltantes (MV):** * Detección automática de *Missing Values*.
-    * Estrategias de imputación configurables (Media, Mediana, Moda, o KNN).
+* **🔍 Tratamiento de Valores Faltantes (MV):** * Detección automática de *Missing Values* en el dataset.
+    * Estrategias de imputación configurables (Media, Mediana, Moda o KNN).
     * Eliminación inteligente de columnas/filas con umbrales personalizables.
 * **⚙️ Preprocesamiento de Datos:**
     * Codificación de variables categóricas (One-Hot Encoding, Label Encoding).
     * Escalado y normalización de variables numéricas (StandardScaler, MinMaxScaler).
-    * Manejo de valores atípicos (*Outliers*).
-* **🧠 Selección de Algoritmos (Machine Learning):**
-    * Soporte para problemas de **Clasificación** y **Regresión**.
+    * Detección y manejo de valores atípicos (*Outliers*).
+* **🧠 Selección y Entrenamiento de Modelos (Machine Learning):**
+    * Soporte integral para problemas de **Clasificación** y **Regresión**.
     * Entrenamiento rápido de múltiples algoritmos populares (Random Forest, SVM, Regresión Logística, XGBoost, etc.).
-    * Generación de métricas comparativas (Accuracy, F1-Score, RMSE, R2) para elegir el mejor modelo.
+    * Generación de métricas comparativas (Accuracy, F1-Score, RMSE, R²) para identificar el modelo base (*baseline*) óptimo.
+* **📈 Visualización Dinámica de Resultados:**
+    * Generación automática de gráficos estadísticos clave (matrices de confusión, mapas de calor, dispersión).
+    * Soporte para visualizaciones interactivas que facilitan la exploración de los datos.
+* **🤖 Análisis Automatizado con Inteligencia Artificial:**
+    * Integración de IA multimodal (LLMs) para "leer" y evaluar los gráficos generados.
+    * Interpretación automática de las métricas del modelo, traduciendo los resultados técnicos a un resumen ejecutivo y recomendaciones en lenguaje natural.
+* **💻 Interfaz de Usuario Intuitiva:**
+    * Entorno web fácil de usar donde el usuario puede subir su archivo CSV y ejecutar todo el flujo de trabajo sin necesidad de tocar el código.
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
 
